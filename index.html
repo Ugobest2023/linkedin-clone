@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Mobile menu -->
+    <div class="mobile__nav">
+        <div class="mobile__main--menu main__nav">
+            <img src="./assets/svgs/logo.svg" width="150" alt="" class="logo">
+            <div class="menu">
+                <div class="hamburger hamburger__one"></div>
+                <div class="hamburger hamburger__two"></div>
+                <div class="hamburger hamburger__three"></div>
+            </div>
+        </div>
+        <div class="mobile__menu--list menu__list hide">
+            <ul>
+                <li><img src="assets/svgs/discover.svg" alt="menu-icon"><a class="nav-item" href="#">Discover</a></li>
+                <li><img src="assets/svgs/people.svg" alt="menu-icon"><a class="nav-item" href="#">People</a></li>
+                <li><img src="assets/svgs/learning.svg" alt="menu-icon"><a class="nav-item" href="#">Learning</a></li>
+                <li><img src="assets/svgs/jobs.svg" alt="menu-icon"><a class="nav-item" href="#">Jobs</a></li>
+                <li><a href="#">Join now</a></li>
+                <li><a class="login" href="#">Sign in</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <div class="desk__nav">
+        <div class="desk__main--menu desk__menu">
+            <img src="assets/svgs/logo.svg" alt="logo" width="130" class="logo">
+            <div class="desk__menu--list desk__list show">
+                <ul>
+                    <li><img class="desk-item" src="assets/svgs/discover.svg" alt="menu-icon"><a href="#">Discover</a></li>
+                    <li><img class="desk-item" src="assets/svgs/people.svg" alt="menu-icon"><a href="#">People</a></li>
+                    <li><img class="desk-item" src="assets/svgs/learning.svg" alt="menu-icon"><a href="#">Learning</a></li>
+                    <li><img class="desk-item" src="assets/svgs/jobs.svg" alt="menu-icon"><a href="#">Jobs</a></li>
+                    <li class="divider"></li>
+                </ul>
+                <ul class="outlaw">
+                    <li class=""><a href="#">Join now</a></li>
+                    <li class=""><a class="login-desk" href="#">Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="header">
+        <header>
+            <div class="header__left">
+                <p>Welcome to your<br />professional community</p>
+                <form>
+                    <input type="email" placeholder="Email or phone number">
+                    <div id="pw__container">
+                        <input id="password" type="password" placeholder="Password">
+                        <p id="indicator">Show</p>
+                    </div>
+                    <p class="reset"><a id="reset" href="#">Forgot password?</a></p>
+                    <button id="signin">Sign in</button>
+                    <div id="divider">
+                        <span></span>
+                        <p>or</p>
+                        <span></span>
+                    </div>
+                    <button id="google-signin">
+                        <img src="assets/svgs/google.svg" alt="google" style="margin-right: 20px;">
+                        Sign in with Google
+                    </button>
+                    <button id="join-now">New to Linkedin? Join now</button>
+                </form>
+            </div>
+            <div class="header__right">
+                <img src="assets/svgs/header-img.svg" width="700" alt="header-img">
+            </div>
+        </header>
+    </section>
+
+    <section class="explore__container">
+        <div class="explore">
+            <p>Explore topics you are interested in</p>
+            <div class="explore__right">
+                <div><a href="#">See All Topics</a></div>
+                <div><a href="#">Workplace</a></div>
+                <div><a href="#">Job Search</a></div>
+                <div><a href="#">Careers</a></div>
+                <div><a href="#">Interviewing</a></div>
+                <div><a href="#">Salary and Compensation</a></div>
+                <div><a href="#">Internships</a></div>
+                <div><a href="#">Employee Benefits</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="find__container">
+        <div class="find">
+            <p>Find the right job or internship for you</p>
+            <div class="find__right">
+                <!-- <p>SUGGESTED SEARCHES</p> -->
+                <div><a href="#">Engineering</a></div>
+                <div><a href="#">Business Development</a></div>
+                <div><a href="#">Finance</a></div>
+                <div><a href="#">Administrative Assistant</a></div>
+                <div><a href="#">Retail Associate</a></div>
+                <div><a href="#">Customer Service </a></div>
+                <div><a href="#">Operations</a></div>
+                <div><a href="#">Information Technology</a></div>
+                <div><a href="#">Marketing</a></div>
+                <div><a href="#">Human Resources</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="post__container">
+        <div class="post">
+            <p>Post your job for <br>millions of people to see</p>
+            <div class="post__right">
+                <div><a href="#">Post a Job</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="know__container">
+        <div class="know">
+            <div class="know__left">
+                <h6>Let the right people know you're open to work</h6>
+                <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities.</p>
+            </div>
+            <div class="know__right">
+                <img src="./assets/sides/slide-2.png" alt="">
+            </div>
+        </div>
+        <div class="controls">
+            <div class="prev lastIndx">
+                <span style="font-size: 25px; margin-right: 10px;">&langle;</span>
+                <p>Previous</p>
+            </div>
+            <div class="next">
+                <p>Next</p>
+                <span style="font-size: 25px; margin-left: 10px;">&rangle;</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="connect__container">
+        <div class="connect">
+            <div class="connect__left">
+                <img src="./assets/sides/one.svg" alt="Connection">
+                    <p>Connect with people who can help</p>
+                    <button>
+                        Find people you know
+                    </button>
+            </div>
+            <div class="connect__right">
+                <img src="./assets/sides/two.svg" alt="Learning">
+                <p>Learn the skills you need to succeed</p>
+                <select name="country" id="country">
+                    <option id="country" value="Choose a topic to learn about">Choose a topic to learn about</option>
+                    <option id="country" value="Nigeria">Ghana</option>
+                    <option id="country" value="Nigeria">Nairobi</option>
+                    <option id="country" value="Nigeria">Cameroon</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="question__container">
+        <div class="question">
+            <div class="question__left">
+                <div class="main__question--container">
+                    <h5>Who is LinkedIn for?</h5>
+                    <h6>Anyone looking to navigate their professional life.</h6>
+                    <button>
+                        <a href="#">Find a coworker or classmate</a>
+                        <span>&RightAngleBracket;</span>
+                    </button>
+                    
+                    <button>
+                        <a href="#">Find a new job</a>
+                        <span>&RightAngleBracket;</span>
+                    </button>
+                    
+                    <button>
+                        <a href="#">Find a course or training</a>
+                        <span>&RightAngleBracket;</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="question__right">
+                <img src="./assets/sides/slide-2.png" alt="slide">
+            </div>
+        </div>
+    </section>
+
+    <section class="join">
+        <p>Join your colleagues,classmates and friends on linkedin</p>
+        <button>
+            <a href="#">Get started</a>
+        </button>
+        <img src="./assets/footer-bg.png" alt="footer_image">
+    </section>
+
+    <footer class="footer__container">
+        <div class="bottom">
+            <img width="150" src="./assets/svgs/logo.svg" alt="logo">
+            <ul>
+                <p>General</p>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="#"></a>Help center</li>
+                <li><a href="#"></a>About</li>
+                <li><a href="#"></a>Press</li>
+                <li><a href="#"></a>Blog</li>
+                <li><a href="#"></a>Careers</li>
+                <li><a href="#"></a>Developers</li>
+            </ul>
+
+            <ul>
+                <p>Browse Linkedin</p>
+                Browse Linkedin
+                <li><a href="#"></a>Learning</li>
+                <li><a href="#"></a>Jobs</li>
+                <li><a href="#"></a>Salary</li>
+                <li><a href="#"></a>Mobiles</li>
+                <li><a href="#"></a>Services</li>
+                <li><a href="#"></a>Products</li>
+            </ul>
+
+            <ul>
+                <p>Business Solutions</p>
+                <li><a href="#"></a>Talents</li>
+                <li><a href="#"></a>Marketing</li>
+                <li><a href="#"></a>Sales</li>
+                <li><a href="#"></a>Learning</li>
+            </ul>
+
+            <ul>
+                <p>Directories</p>
+                <li><a href="#"></a>Members</li>
+                <li><a href="#"></a>Jobs</li>
+                <li><a href="#"></a>Companies</li>
+                <li><a href="#"></a>Featured</li>
+                <li><a href="#"></a>Learning</li>
+                <li><a href="#"></a>Posts</li>
+                <li><a href="#"></a>Articles</li>
+                <li><a href="#"></a>Schools</li>
+                <li><a href="#"></a>News</li>
+                <li><a href="#"></a>News Letters</li>
+                <li><a href="#"></a>Services</li>
+                <li><a href="#"></a>Products</li>
+                <li><a href="#"></a>Content Topics</li>
+            </ul>
+        </div>
+        
+    </footer>
+
+    <section class="tag__container">
+        <div class="tag">
+            <img width="150" src="./assets/svgs/logo.svg" alt="logo">
+            <ul>
+                <li><a href="#">@ 2023</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">User Agreement</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Copyright Policy</a></li>
+                <li><a href="#">Brand Policy</a></li>
+                <li><a href="#">Guest Controls</a></li>
+                <li><a href="#">Community Guidelines</a></li>
+                <li><a href="#">Language</a></li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <script src="animate.js"></script>
+</body>
+</html>
